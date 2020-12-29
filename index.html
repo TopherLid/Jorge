@@ -11,33 +11,39 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="icon" href="lib/ico/icono.ico">
-        <script src="js/Scripts.js"> </script>
+        <script src="https://kit.fontawesome.com/178860d74b.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"> </script>
     </head> 
     <body> 
         <header>
             <nav id="menuContainer" class="nav">
-                <ul class="topnav__ul">
-                    <li class="topnav__li"><a href="index.html">Jorge</a></li>
-                    <li class="topnav__li"><a href="Products.html">Productos</a></li>
-                    <li class="topnav__li"><a href="Compra.html">¿Cómo comprar?</a></li>               
-                    <li class="topnav__li"><a href="Team.html">Quiénes somos</a></li>                         
-                </ul>
+                <div class="siteBranding">
+                    <a href="index.html" class="logoLink" rel="home"><img src="lib/ico/logoMarca.png" alt="" title="logoJorge"></a>
+                    <ul class="topnav__ul">
+                        <li class="topnav__li"><i class="fas fa-search"></i><a href="Products.html">Productos</a></li>
+                        <li class="topnav__li"><i class="fas fa-shopping-cart"></i><a href="Compra.html">¿Cómo comprar?</a></li>               
+                        <li class="topnav__li"><i class="fas fa-users"></i><a href="Team.html">Quiénes somos</a></li>                         
+                    </ul>
+                </div>                
             </nav>
         </header>
 
         <article>
-            <section>
-                <!-- hacer la -->
-
-                
-                <!--<div class="noticia">
-                    
-                <div class="noticia">-->
-                   
-                   
-               
+            <section>     
+                <div class="slideimageboard">
+                    <img src="lib/img/taladro1.jpg" alt="" tittle="taladro1"> 
+                </div>
             </section>
         </article>
-
+        <footer>   
+            <div class="rrss"> 
+                <p>Siguenos en nuestras redes sociales!</p>
+                <ul class="footerbar">
+                    <li class="footer_rs"><i class="fab fa-instagram"></i><a href="https://instagram.com/topher.pl" target="_BLANK" rel="noopener">Instagram</a></li>
+                    <li class="footer_rs"><i class="fab fa-facebook-messenger"></i><a href="https://www.facebook.com/StaarDragon" target="_BLANK" rel="noopener">Facebook</a></li>
+                    <li class="footer_rs"><i class="fab fa-twitter-square"></i><a href="https://twitter.com/pl_topher" target="_BLANK" rel="noopener">Twitter</a></li>
+                </ul>              
+            </div>
+        </footer>     
     </body>
 </html>
