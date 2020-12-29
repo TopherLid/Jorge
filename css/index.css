@@ -1,1 +1,66 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
+header{
+    background-color: #9b9b9b;
+}
+
+/* nav */
+
+.topnav__ul{
+    float:right;
+}
+
+.topnav__li {
+    height:70px;
+    color: #000000;
+    display:inline-block;
+    padding: 30px;
+    box-sizing: border-box;
+
+    /*
+    probablemente sacar
+    border-top:5px solid greenyellow;
+    */
+}
+
+.topnav__li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.topnav__li i {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* centrar slideboard de js*/
+
+.slideimageboard{
+    text-align: center;
+}
+
+/* foot */
+
+footer{
+    background-color:#9b9b9b;
+}
+
+.footer_rs {
+    height:50px;
+    color: #000000;
+    display:block;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.footer_rs a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_rs i {
+    box-sizing: border-box;
+    text-align: center;
+}
